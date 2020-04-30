@@ -29,7 +29,7 @@ def now_serving(queue)
   end
 end
 
-ticket_number = 0
+$ticket_number = 0
 
 def ticket_wheel
   ticket_number += 1
