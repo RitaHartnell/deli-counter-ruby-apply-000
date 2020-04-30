@@ -33,7 +33,7 @@ $ticket_number = 0
 
 def ticket_wheel
   $ticket_number += 1
-  puts "Welcome, your ticket is number #{ticket_number}"
+  puts "Welcome, your ticket is number #{$ticket_number}"
 
 end
 
